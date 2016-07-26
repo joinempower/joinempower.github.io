@@ -23,11 +23,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #e6ac00;
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #e6ac00;
 }
 h1,
 h2,
