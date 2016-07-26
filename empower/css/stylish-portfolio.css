@@ -25,8 +25,8 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
+    font-size: 15em;
+    font-weight: 1000;
 }
 
 /* Custom Button Styles */
@@ -34,7 +34,11 @@ body {
 .btn-dark {
     border-radius: 0;
     color: white;
+<<<<<<< HEAD
     background-color: rgba(0,0,0,0.4);
+=======
+    background-color: white;
+>>>>>>> origin/master
 }
 
 .btn-dark:hover,
