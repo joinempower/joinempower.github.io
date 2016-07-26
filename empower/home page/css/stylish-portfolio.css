@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Impact";
+    font-family: "Source Sans Pro","Helvetica Neue" Charcoal, sans-serif;
 }
 
 .text-vertical-center {
@@ -26,7 +26,7 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    font-style: "impact";
+    font-style: impact;
     color: black;
 }
 .text-vertical-center h1 {
@@ -34,7 +34,7 @@ body {
     padding: 0;
     font-size: 15em;
     font-weight: 1000;
-    font-style: "impact";
+    font-style: impact;
     color: gray;
 }
 
