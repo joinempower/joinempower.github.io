@@ -54,8 +54,6 @@ body {
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: white;
-    background-color: white;
 }
 
 .btn-light {
