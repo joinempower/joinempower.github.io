@@ -22,7 +22,7 @@ gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
 
 // Less task to compile the less files and add the banner
 gulp.task('less', function() {
-    return gulp.src('less/freelancer.less')
+    return gulp.src('less/agency.less')
         .pipe(less())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(gulp.dest('css'))
@@ -33,7 +33,7 @@ gulp.task('less', function() {
 
 // Minify CSS
 gulp.task('minify-css', function() {
-    return gulp.src('css/freelancer.css')
+    return gulp.src('css/agency.css')
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('css'))
@@ -44,7 +44,7 @@ gulp.task('minify-css', function() {
 
 // Minify JS
 gulp.task('minify-js', function() {
-    return gulp.src('js/freelancer.js')
+    return gulp.src('js/agency.js')
         .pipe(uglify())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(rename({ suffix: '.min' }))
