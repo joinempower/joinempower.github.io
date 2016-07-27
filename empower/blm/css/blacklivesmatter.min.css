@@ -51,7 +51,7 @@
  @media (min-width:992px){.service-box{margin:20px auto 0}}
  .service-box p{margin-bottom:0}
  .portfolio-box{position:relative;display:block;max-width:650px;margin:0 auto}
- .portfolio-box .portfolio-box-caption{color:#fff;opacity:0;display:block;background:rgba(240,95,64,.9);position:absolute;bottom:0;text-align:center;width:100%;height:100%;transition:all .35s}
+ .portfolio-box .portfolio-box-caption{color:#fff;opacity:0;display:block;background:#e6b800;position:absolute;bottom:0;text-align:center;width:100%;height:100%;transition:all .35s}
  .btn-default.active,.btn-default:active,.btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-default,.open>.dropdown-toggle.btn-primary{background-image:none}
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content{width:100%;text-align:center;position:absolute;top:50%;transform:translateY(-50%)}
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;padding:0 15px}
