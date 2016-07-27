@@ -405,11 +405,11 @@ fieldset[disabled] .btn-primary.active {
 }
 img::selection {
   color: white;
-  background: transparent;
+  background: black;
 }
 img::-moz-selection {
   color: white;
-  background: transparent;
+  background: black;
 }
 body {
   webkit-tap-highlight-color: #222222;
