@@ -28,7 +28,7 @@
  .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:##e6b800}
  .navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus{color:#e6b800!important;background-color:transparent}
  .navbar-default .nav>li.active>a:focus:hover,.navbar-default .nav>li.active>a:hover{background-color:transparent}
- @media (min-width:768px){.navbar-default{background-color:transparent;border-color:rgba(255,255,255,.3)}
+ @media (min-width:768px){.navbar-default{background-color:black;border-color:rgba(255,255,255,.3)}
  .navbar-default .navbar-header .navbar-brand{color:rgba(255,255,255,.7)}
  .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fff}
  .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:rgba(255,255,255,.7)}
