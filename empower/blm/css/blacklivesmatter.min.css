@@ -68,7 +68,30 @@
     -2px 1px 0 #000,
     2px -1px 0 #000,
     -2px -1px 0 #000;}
- header .header-content .header-content-inner p{font-size:30px;max-width:80%;margin-left:auto;margin-right:auto}}
+ header .header-content .header-content-inner p{text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;font-size:30px;max-width:80%;margin-left:auto;margin-right:auto}}
  .section-heading{margin-top:0}
  .service-box{max-width:400px;margin:50px auto 0}
  @media (min-width:992px){.service-box{margin:20px auto 0}}
