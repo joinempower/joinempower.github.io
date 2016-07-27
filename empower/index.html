@@ -31,7 +31,14 @@
 </head>
 
 <body>
-    
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -162,12 +169,11 @@
             <h1>Empower the world.</h1>
         </div>
     </aside>
-    
-    <section>
-        <div class="fb-page" data-href="https://www.facebook.com/peopletoempower/" data-tabs="timeline" data-width="300" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/peopletoempower/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/peopletoempower/">People to Empower</a></blockquote></div>
-    </section>
+
     <!-- Portfolio -->
-    
+    <section>
+        <div class="fb-page" data-href="https://www.facebook.com/peopletoempower/" data-tabs="timeline" data-width="900" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/peopletoempower/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/peopletoempower/">People to Empower</a></blockquote></div>
+    </section>
 
     <!-- Call to Action -->
   
@@ -190,7 +196,7 @@
                     </h4>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">peopletoempower@gmail.com</a>
-                       <p><a href= MeetTheTeam.html>  Meet the Empower Team</p></a>
+                       <p><a href= team.html>  Meet the Empower Team</a></p>
                         </li>
                     </ul>
                     <br>
@@ -226,14 +232,6 @@
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
     // Opens the sidebar menu
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
