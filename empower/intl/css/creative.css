@@ -165,13 +165,6 @@ header .header-content {
   padding: 100px 15px 100px;
   width: 100%;
   color: black;
-   position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 0 50px;
-    color: black;
 }
 header .header-content .header-content-inner1 h1 {
   font-weight: 700;
@@ -181,16 +174,27 @@ header .header-content .header-content-inner1 h1 {
   font-size: 70px;
   color: black;
 }
-header .header-content .header-content-inner1 hr {
-  margin: 30px auto;
-  color: black;
-}
+
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    color: black;
+  }
 
 header .header-content .header-content-inner2 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     color: black;
+  }
   }
   header .header-content .header-content-inner2 p {
     font-size: 20px;
@@ -200,10 +204,6 @@ header .header-content .header-content-inner2 {
     color: black;
   }
 }
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
 .section-heading {
   margin-top: 0;
 }
