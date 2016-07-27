@@ -10,7 +10,7 @@
  hr{border-color:#F05F40;border-width:3px;max-width:50px}
  hr.light{border-color:#fff}
  a{transition:all .35s;color:#F05F40}
- a:focus,a:hover{color:#eb3812}
+ a:focus,a:hover{color:black}
  p{font-size:16px;line-height:1.5;margin-bottom:20px}
  .bg-primary{background-color:#F05F40}
  .bg-dark{background-color:#222;color:#fff}
