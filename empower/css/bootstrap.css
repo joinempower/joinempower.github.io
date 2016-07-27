@@ -6754,13 +6754,6 @@ button.close {
   .hidden-print {
     display: none !important;
   }
-  h1 {
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-}
+  
 }
 /*# sourceMappingURL=bootstrap.css.map */
