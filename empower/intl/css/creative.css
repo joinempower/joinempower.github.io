@@ -171,7 +171,7 @@ header .header-content .header-content-inner1 h1 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 70px;
+  font-size: 100px;
   color: black;
 }
 
@@ -197,7 +197,7 @@ header .header-content .header-content-inner2 {
   }
   }
   header .header-content .header-content-inner2 p {
-    font-size: 20px;
+    font-size: 30px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
