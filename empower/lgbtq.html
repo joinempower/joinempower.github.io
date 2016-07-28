@@ -271,6 +271,12 @@
  height="700">
 </iframe>
 
+
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/empower-lgbtq'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
  Map 
     <section id="contact" class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
@@ -281,16 +287,9 @@
         </iframe>
     </section>
 
-
-<script type="text/javascript">
-  document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=forum/empower-lgbtq'
-     + '&showsearch=true&showpopout=true&showtabs=false'
-     + '&parenturl=' + encodeURIComponent(window.location.href);
-
- //Disable Google Maps scrolling
- //See http://stackoverflow.com/a/25904582/1607849
-// Disable scroll zooming and bind back the click event
+Disable Google Maps scrolling
+See http://stackoverflow.com/a/25904582/1607849
+ Disable scroll zooming and bind back the click event
  var onMapMouseleaveHandler = function(event) {
     var that = $(this);
      that.on('click', onMapClickHandler);
@@ -299,14 +298,14 @@
  }
 var onMapClickHandler = function(event) {
          var that = $(this);
-        // Disable the click handler until the user leaves the map area
+ Disable the click handler until the user leaves the map area
     that.off('click', onMapClickHandler);
-         // Enable scrolling zoom
+ Enable scrolling zoom
         that.find('iframe').css("pointer-events", "auto");
-         // Handle the mouse leave event
+ Handle the mouse leave event
         that.on('mouseleave', onMapMouseleaveHandler);
     }
-    // Enable map zooming with mouse scroll when the user clicks the map
+ Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
     
 })();
@@ -327,7 +326,7 @@ $('.map').on('click', onMapClickHandler);
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
-<!--<script id="dsq-count-scr" src="//https-joinempower-github-io-empower-index-html.disqus.com/count.js" async></script>-->
+
 </body>
 
 </html>
