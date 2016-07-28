@@ -36,6 +36,8 @@
 
 <body id="page-top">
 
+<div id="disqus_thread"></div>
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -273,7 +275,25 @@
      'https://groups.google.com/forum/embed/?place=forum/empower-lgbtq'
      + '&showsearch=true&showpopout=true&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
+
+<script>
+
+
+var disqus_config = function () {
+    this.page.url = 'https://joinempower.github.io/empower/lgbtq.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '/LGBTQdiscussion/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//https-joinempower-github-io-empower-index-html.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</script>
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -288,6 +308,7 @@
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
+<script id="dsq-count-scr" src="//https-joinempower-github-io-empower-index-html.disqus.com/count.js" async></script>
 </body>
 
 </html>
