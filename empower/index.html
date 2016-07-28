@@ -31,7 +31,6 @@
 </head>
 
 <body>
-
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -40,7 +39,6 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -110,7 +108,7 @@
                                 <h4>
                                     <strong>LGBTQ</strong>
                                 </h4>
-                                <p>#LoveisLove</p> 
+                                <p>#LoveisLove</p>
                                 <a href="lgbtq.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
@@ -173,24 +171,24 @@
     </aside>
 
     <!-- Portfolio -->
-    <section><center>
+    <section>
             <div class="fb-page" data-href="https://www.facebook.com/peopletoempower/" data-tabs="timeline" data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/peopletoempower/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/peopletoempower/">People to Empower</a></blockquote></div>
-            <a class="twitter-timeline" width="500" height="600" href="https://twitter.com/peopletoempower">Our Twitter timeline</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" width="600" height="600" href="https://twitter.com/peopletoempower">Our Twitter timeline</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             <!--            <a class="twitter-timeline"  href="https://twitter.com/hashtag/Empower" data-widget-id="758701954138636289">#Empower Tweets</a>-->
             <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
-    </section></center>
+    </section>
 
     <!-- Call to Action -->
   
     <!-- Map -->
-    <!--<section id="contact" class="map">-->
-    <!--    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>-->
-    <!--    <br />-->
-    <!--    <small>-->
-    <!--        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>-->
-    <!--    </small>-->
-    <!--    </iframe>-->
-    <!--</section>-->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section>
 
     <!-- Footer -->
     <footer>
@@ -285,31 +283,24 @@
     // Disable Google Maps scrolling
     // See http://stackoverflow.com/a/25904582/1607849
     // Disable scroll zooming and bind back the click event
-    // var onMapMouseleaveHandler = function(event) {
-    //     var that = $(this);
-    //     that.on('click', onMapClickHandler);
-    //     that.off('mouseleave', onMapMouseleaveHandler);
-    //     that.find('iframe').css("pointer-events", "none");
-    // }
-    // var onMapClickHandler = function(event) {
-    //         var that = $(this);
-    //         // Disable the click handler until the user leaves the map area
-    //         that.off('click', onMapClickHandler);
-    //         // Enable scrolling zoom
-    //         that.find('iframe').css("pointer-events", "auto");
-    //         // Handle the mouse leave event
-    //         that.on('mouseleave', onMapMouseleaveHandler);
-    //     }
-    //     // Enable map zooming with mouse scroll when the user clicks the map
-    // $('.map').on('click', onMapClickHandler);
-    /**
-
-})();
-</script>
-
-
-                                    
-    <!--</script>-->
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
 
 </body>
 
