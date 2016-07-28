@@ -228,7 +228,7 @@
                     <div class="team-member">
                         <img src="team/img/team/4.jpg" class="img-responsive img-circle" alt="">
                         <h4>Danielle Gonzalez</h4>
-                        <p class="text-muted">Danielle is a junior at Belleview High School in Florida.</p>
+                        <p class="text-muted">Danielle is the Vice President of the Junior Class Officers at Belleview High School in Florida.</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="https://twitter.com/dxnigxnzalez"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -313,6 +313,14 @@
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">Send Message</button>
+                                <script>
+                                    if (document.getElementById('submit').clicked == true) {
+                                    greeting = "Sent";
+                                    } 
+                                    else {
+                                     greeting = "Try Again";
+                                    }
+                                </script>
                             </div>
                         </div>
                     </form>
