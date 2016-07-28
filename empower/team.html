@@ -314,12 +314,9 @@
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">Send Message</button>
                                 <script>
-                                    if (document.getElementById('submit').clicked == true) {
-                                    greeting = "Sent";
-                                    } 
-                                    else {
-                                     greeting = "Try Again";
-                                    }
+                                    document.getElementById('button').onclick = function() {
+                                    alert("button was clicked");
+                                    };
                                 </script>
                             </div>
                         </div>
