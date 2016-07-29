@@ -146,7 +146,54 @@ body {
     color: black;
     background-color: #0066cc;
 }
+.btn-light5 {
+    border-radius: 0;
+    color: black;
+    background-color: #80d4ff;
+}
 
+.btn-light5:hover,
+.btn-light5:focus,
+.btn-light5:active {
+    color: black;
+    background-color: #80d4ff;
+}
+.btn-light6 {
+    border-radius: 0;
+    color: black;
+    background-color: #c266ff;
+}
+
+.btn-light6:hover,
+.btn-light6:focus,
+.btn-light6:active {
+    color: black;
+    background-color: #c266ff;
+}
+.btn-light7 {
+    border-radius: 0;
+    color: black;
+    background-color: #59b300;
+}
+
+.btn-light7:hover,
+.btn-light7:focus,
+.btn-light7:active {
+    color: black;
+    background-color: #59b300;
+}
+.btn-light8 {
+    border-radius: 0;
+    color: black;
+    background-color: #b3003b;
+}
+
+.btn-light8:hover,
+.btn-light8:focus,
+.btn-light8:active {
+    color: black;
+    background-color: #b3003b;
+}
 /* Custom Horizontal Rule */
 
 hr.small {
