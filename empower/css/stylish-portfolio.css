@@ -100,50 +100,50 @@ body {
 
 .btn-light1 {
     border-radius: 0;
-    color: #333;
+    color: black;
     background-color: #F05F40;
 }
 
 .btn-light1:hover,
 .btn-light1:focus,
 .btn-light1:active {
-    color: #333;
+    color: black;
     background-color: #F05F40;
 }
 .btn-light2 {
     border-radius: 0;
-    color: #333;
+    color: black;
     background-color: #e6b800;
 }
 
 .btn-light2:hover,
 .btn-light2:focus,
 .btn-light2:active {
-    color: #333;
+    color: black;
     background-color: #e6b800;
 }
 .btn-light3 {
     border-radius: 0;
-    color: #333;
+    color: black;
     background-color: #ffb6c1;
 }
 
 .btn-light3:hover,
 .btn-light3:focus,
 .btn-light3:active {
-    color: #333;
+    color: black;
     background-color: #ffb6c1;
 }
 .btn-light4 {
     border-radius: 0;
-    color: #fff;
+    color: black;
     background-color: #004d99;
 }
 
 .btn-light4:hover,
 .btn-light4:focus,
 .btn-light4:active {
-    color: #fff;
+    color: black;
     background-color: #004d99;
 }
 
