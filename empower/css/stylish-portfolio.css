@@ -137,14 +137,14 @@ body {
 .btn-light4 {
     border-radius: 0;
     color: black;
-    background-color: #004d99;
+    background-color: #0066cc;
 }
 
 .btn-light4:hover,
 .btn-light4:focus,
 .btn-light4:active {
     color: black;
-    background-color: #004d99;
+    background-color: #0066cc;
 }
 
 /* Custom Horizontal Rule */
@@ -279,7 +279,7 @@ hr.small {
 }
 .service-item4 {
     margin-bottom: 30px;
-    color: #004d99;
+    color: #0066cc;
 }
 /* Callout */
 
