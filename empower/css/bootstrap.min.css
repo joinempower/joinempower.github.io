@@ -51,6 +51,7 @@
  img{max-width:100%!important}
  h2,h3,p{orphans:3;widows:3}
  h2,h3{page-break-after:avoid}
+ .socialmediatitle{color:black;}
  .navbar{display:none}
  .btn>.caret,.dropup>.btn>.caret{border-top-color:#000!important}
  .label{border:1px solid #000}
