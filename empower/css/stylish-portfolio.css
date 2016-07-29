@@ -136,14 +136,14 @@ body {
 }
 .btn-light4 {
     border-radius: 0;
-    color: #333;
+    color: #fff;
     background-color: #004d99;
 }
 
 .btn-light4:hover,
 .btn-light4:focus,
 .btn-light4:active {
-    color: #333;
+    color: #fff;
     background-color: #004d99;
 }
 
