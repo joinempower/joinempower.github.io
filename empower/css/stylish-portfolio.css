@@ -185,14 +185,14 @@ body {
 .btn-light8 {
     border-radius: 0;
     color: black;
-    background-color: #b3003b;
+    background-color: #b30000;
 }
 
 .btn-light8:hover,
 .btn-light8:focus,
 .btn-light8:active {
     color: black;
-    background-color: #b3003b;
+    background-color: #b30000;
 }
 /* Custom Horizontal Rule */
 
