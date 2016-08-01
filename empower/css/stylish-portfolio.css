@@ -207,6 +207,11 @@ body {
 hr.small {
     max-width: 100px;
 }
+hr.small {
+    max-width: 100px;
+    color: black;
+}
+
 
 /* Side Menu */
 
