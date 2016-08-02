@@ -10,6 +10,8 @@ body {
 
 .hero-spacer {
     margin-top: 50px;
+   background: url(shop.jpg) no-repeat center center scroll;
+    background-size: cover;
 }
 
 .hero-feature {
