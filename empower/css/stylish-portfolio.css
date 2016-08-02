@@ -369,7 +369,7 @@ hr.small2 {
 }
 .merch{
     display: table;
-    width: 90%;
+    width: 100%;
     height: 100%;
     color: #fff;
     background: url(../img/merch.jpg) no-repeat center center scroll;
