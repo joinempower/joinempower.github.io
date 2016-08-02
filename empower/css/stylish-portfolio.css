@@ -347,12 +347,15 @@ hr.small2 {
     -o-background-size: cover;
 }
 .group {
-    
+    display: table;
+    width: 6000px;
+    height: 4000px;
+    color: #fff;
     background: url(../img/group.jpg) no-repeat center center scroll;
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*background-size: cover;*/
-    /*-o-background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Portfolio */
