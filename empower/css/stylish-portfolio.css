@@ -43,7 +43,7 @@ body {
     font-weight: 1000;
     font-family: Impact, Charcoal, sans-serif;
     opacity: 1;
-    color: black;
+    color: white;
 }
 
 .text-vertical-center1 {
@@ -87,7 +87,27 @@ body {
     font-family: Impact, Charcoal, sans-serif;
     color: white;
 }
+.text-vertical-center3 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.text-vertical-center3 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-style: impact;
+}
+.text-vertical-center3 h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 15em;
+    font-weight: 1000;
+    font-family: Impact, Charcoal, sans-serif;
+    opacity: 1;
+    color: black;
+}
 /* Custom Button Styles */
 
 .btn-dark {
