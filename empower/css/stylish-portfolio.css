@@ -348,8 +348,8 @@ hr.small2 {
 }
 .group {
     display: table;
-    width: 110%;
-    height: 110%;
+    width: 120%;
+    height: 120%;
     color: #fff;
     background: url(../img/group.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
