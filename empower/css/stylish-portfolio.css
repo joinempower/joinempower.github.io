@@ -49,13 +49,13 @@ body {
 .text-vertical-center1 {
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .text-vertical-center1 {
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
     font-style: impact;
 }
 .text-vertical-center1 h1 {
